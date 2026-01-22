@@ -1,56 +1,7 @@
-gallery.html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Photo Gallery | Dr. Manish Kumar</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin:0; background:#f5f7fa; color:#34495e; }
-    header, footer { background:#2c3e50; color:#ecf0f1; padding:1rem 0; }
-    .container { max-width: 1100px; margin:0 auto; padding:0 1rem; }
-    nav a { color:#ecf0f1; margin-right:1.5rem; text-decoration:none; font-weight:500; }
-    nav a:hover { color:#3498db; }
-    h1 { margin:0 0 .3rem; }
-    main { padding:2rem 0 3rem; }
-    h2 { margin-bottom:1rem; border-bottom:2px solid #3498db; padding-bottom:.5rem; }
-
-    .album { margin-bottom:2.5rem; }
-    .album h3 { margin-bottom:.5rem; }
-    .album p { margin-bottom:1rem; color:#7f8c8d; }
-
-    .gallery-grid {
-      display:grid;
-      grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
-      gap:1.25rem;
-    }
-    figure {
-      background:#fff;
-      border-radius:8px;
-      overflow:hidden;
-      box-shadow:0 3px 8px rgba(0,0,0,.12);
-      margin:0;
-    }
-    figure img {
-      width:100%;
-      height:180px;
-      object-fit:cover;
-      display:block;
-    }
-    figcaption {
-      padding:.6rem .75rem;
-      font-size:.9rem;
-      text-align:center;
-    }
-
-    footer p { text-align:center; margin:0; font-size:.85rem; }
-    @media (max-width:600px) {
-      header .container { text-align:center; }
-      nav { margin-top:.5rem; }
-      nav a { display:inline-block; margin:.2rem .5rem; }
-    }
-  </style>
 </head>
 <body>
 <header>
@@ -115,29 +66,16 @@ gallery.html>
 
   <section class="album">
    <h3>International Conferences </h3>
-    <p>Photographs from invited talks and conferences in Japan, Prague, Zurich, Chicago, Singapore etc.</p>
+    <p>Creation of Multiverse from Electrical Energy flow from GOD in Space, Conference on Atomic and Nuclear Physics</p>
     <div class="gallery-grid">
-      <figure>
-        <img src="DSC00451.jpg" alt="Japan Conference 2009">
-        <figcaption>Japan, 2009 – Advances in Physics Conference</figcaption>
-      </figure>
-      <figure>
-        <img src="Screenshot_20190223-050513.png" alt="Creation of Multiverse from Electrical Energy flow from GOD">
-        <figcaption>Boston USA, 2018 – Conferenceon Atomic and Nuclear Physics</figcaption>
-      </figure>
-      <figure>
-        <img src="DSC00457.jpg" alt="Prague Terahertz Meeting 2019">
-        <figcaption>Prague, 2019 – EMN Meeting on Terahertz</figcaption>
-      </figure>
-      <figure>
-        <img src="Sanya 041.jpg" alt="Sanya W-SOPO 2013">
-        <figcaption>Sanya China, 2013 – Symposium on Photonics and Optoelectronics</figcaption>
+       <figure>
+        <img src="Screenshot_20190223-050513.png" alt="Creation of Multiverse from Electrical Energy flow from GOD in Space">
+        <figcaption>Boston USA, 2018 – Creation of Multiverse from Electrical Energy flow from GOD in Space, Conference on Atomic and Nuclear Physics</figcaption>
       </figure>
     </div>
   </section> 
   
 </main>
-
 <footer>
   <div class="container">
     <p>&copy; 2025 Dr. Manish Kumar · ORCID: 0000-0001-6053-3667</p>
